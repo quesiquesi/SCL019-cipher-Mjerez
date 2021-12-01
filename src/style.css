@@ -1,0 +1,54 @@
+body {
+    background-color: #FEFEE3;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    text-shadow: 1px 1px 1px #D68C45;
+    background-image: url(https://static01.nyt.com/images/2018/07/02/science/02-jp-abortion-print/00ABORTION1-jumbo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FEFEE3;
+    }
+    
+    h1{
+      color: #FEFEE3;
+      font-size: 54px;
+      background-color: #2C6E49;
+      width: 400px;
+      border: solid #2C6E49;
+      display: inline-flex;
+      padding-left: 1cm;
+      padding-right: 1cm;
+      justify-content: center;
+      }
+
+    h2{
+    color: #FEFEE3;
+    text-shadow: 1px 1px 1px #302d2b
+    }
+    input{
+        width: 20cm;
+        padding-bottom: 8cm;
+        background-color: #FEFEE3;
+        border: solid #FEFEE3
+    }
+    
+
+    button{
+
+      background-color: #FFC9B9;
+      color: #2C6E49;
+      font-size: 20px;
+      width: 250px;
+      border-radius: 10rem;
+      font-family: "Outfit", sans-serif;
+      padding: 10px;
+      border: solid #FFC9B9;
+      justify-content: center;
+      
+    }
+    
+    head{
+        padding-top: 100px;
+    }
