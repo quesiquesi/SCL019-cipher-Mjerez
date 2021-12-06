@@ -1,37 +1,84 @@
-body {
-    background-color: #FEFEE3;
-    text-align: center;
-    font-family: "Outfit", sans-serif;
-    text-shadow: 1px 1px 1px #D68C45;
-    background-image: url(https://static01.nyt.com/images/2018/07/02/science/02-jp-abortion-print/00ABORTION1-jumbo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #FEFEE3;
+     body {
+     background-color: #FEFEE3;
+     text-align: center;
+     font-family: "Outfit", sans-serif;
+     text-shadow: 1px 1px 1px #D68C45;
+     background-image: url(https://static01.nyt.com/images/2018/07/02/science/02-jp-abortion-print/00ABORTION1-jumbo.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-color: #FEFEE3;
+
+     }
     
+     input, button {
 
+     border: none;
+     outline: none;
+
+     }
+
+     #input-original, #resultado {
+
+     background-color: var(--color-terminal);
+     width: -webkit-fill-available;
+     }
+
+     #resultado {
+     height: 20px;
+     color:#2C6E49;
+     padding: 0 10px 10px;
+     border-bottom-left-radius: var(--borde-redondo);
+     border-bottom-right-radius: var(--borde-redondo);
+    
     }
-    input{
-      width: 16cm;
-      padding-bottom: 7cm;
-      background-color: #FEFEE3;
-      border: solid #FEFEE3;
 
-    }
 
-    .range {
-     width: 16cm;
-      padding-bottom:3cm;
+   #input-original{
+   width: 16cm;
+   padding-bottom: 7cm;
+   background-color: #FEFEE3;
+   border: solid #FEFEE3;
+
+   }
+
+     .rango {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 1fr 30px;
+      text-align: center;
       align-items: center;
-    }
-main{
-  padding:25px;
-}
-output{
-color: #FEFEE3;
-}
- h1{
+      padding-bottom: 1cm;
+    
+     }
+
+     input[type='range'] {
+      -webkit-appearance: none;
+      border-radius: var(--borde-redondo);
+      background: var(--color-terminal);
+      margin: 0;
+      padding: 0 5px;
+      height: 20px;
+ 
+     }
+
+     input[type='range']::-webkit-slider-thumb {
+
+     cursor: pointer;
+     -webkit-appearance: none;
+     background: #2C6E49;
+     border-radius: 50%;
+     height: 10px;
+     width: 10px;
+
+     }
+
+     output{
+     color: #FEFEE3;
+     }
+
+     h1{
       color: #FEFEE3;
       font-size: 54px;
       background-color: #2C6E49;
@@ -43,14 +90,11 @@ color: #FEFEE3;
       justify-content: center;
       }
       
-    h2{
-    color: #FEFEE3;
-    text-shadow: 1px 1px 1px #302d2b
-    }
+     h2{
+     color: #FEFEE3;
+     text-shadow: 1px 1px 1px #302d2b
+     }
     
-    
-  
-    
-    head{
-        padding-top: 100px;
-    }
+     head{
+     padding-top: 100px;
+     }
