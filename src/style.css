@@ -9,9 +9,29 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #FEFEE3;
-    }
     
-    h1{
+
+    }
+    input{
+      width: 16cm;
+      padding-bottom: 7cm;
+      background-color: #FEFEE3;
+      border: solid #FEFEE3;
+
+    }
+
+    .range {
+     width: 16cm;
+      padding-bottom:3cm;
+      align-items: center;
+    }
+main{
+  padding:25px;
+}
+output{
+color: #FEFEE3;
+}
+ h1{
       color: #FEFEE3;
       font-size: 54px;
       background-color: #2C6E49;
@@ -22,32 +42,14 @@ body {
       padding-right: 1cm;
       justify-content: center;
       }
-
+      
     h2{
     color: #FEFEE3;
     text-shadow: 1px 1px 1px #302d2b
     }
-    input{
-        width: 20cm;
-        padding-bottom: 8cm;
-        background-color: #FEFEE3;
-        border: solid #FEFEE3
-    }
     
-
-    button{
-
-      background-color: #FFC9B9;
-      color: #2C6E49;
-      font-size: 20px;
-      width: 250px;
-      border-radius: 10rem;
-      font-family: "Outfit", sans-serif;
-      padding: 10px;
-      border: solid #FFC9B9;
-      justify-content: center;
-      
-    }
+    
+  
     
     head{
         padding-top: 100px;

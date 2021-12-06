@@ -8,27 +8,29 @@
 	<meta name="viewport" content="width=device-width">
   </div>
 </head>
-<title> espacio seguro</title>
+<title> Espacio Seguro</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
+
+
 <body>
 
-	<body>
+	
 		<h1> HOLA, AMIGA </h1>
 <br>
 <h2>Escribe tu mensaje aquí</h2>
 <br>
-<form>
-  <label for="mensaje">:</label><br>
-  <input type="text" id="mensaje" name="mensaje" value=""><br><br> <br>
-  
-  <button type="button" value= "Clik me" onclick="msg()">cifrar</button>
-    <script src="script.js"></script>
-  
+ <main>
+
+<form id="cifrador" autocomplete="off"> </form>
+<input id="input-original" spellcheck="false" placeholder="Aquí" type="text" name="text">
 </form>
-	<h2></h2>
-    </form>
-   
-  </body>
+<div id="resultado"></div>
+<div class"rango">
+  <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+  <output>10</output>
+</div>
+   </main>
+</body>
 </html>

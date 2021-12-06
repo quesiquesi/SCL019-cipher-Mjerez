@@ -1,17 +1,22 @@
+const inputOriginal = document.getElementById('input-original');
+const cifrador = document.getElementById('cifrador');
+const resultado = document.getElementById('resultado');
+const rango = document.getElementById('rango');
 
-
-
-function msg(){
-alert("¡Listo! tu mensaje está cifrado");
+const shifMessage = ()=> {
+const wordArray = [...inputOriginal.value.toUpperCase()]
 }
-var valor = document.getElementById("mensaje").value;
 
-<textarea id="mensaje"></textarea>
-var valor = document.getElementById("mensaje").value;
-
+const submit = e => {
+    e.preventDefault();
+    resultado.innerHTML = '';
+    shifMessage()
+}
+cifrador.onsubmit = submit;
 
 const cipher = {
-  // ...
-}
-
-export default cipher;
+    // ...
+  }
+  
+  export default cipher
+ 
