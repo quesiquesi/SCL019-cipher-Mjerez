@@ -9,6 +9,7 @@
      background-attachment: fixed;
      background-size: cover;
      background-color: #FEFEE3;
+     align-items: center;
 
      }
     
@@ -18,22 +19,6 @@
      outline: none;
 
      }
-
-     #input-original, #resultado {
-
-     background-color: var(--color-terminal);
-     width: -webkit-fill-available;
-     }
-
-     #resultado {
-     height: 20px;
-     color:#2C6E49;
-     padding: 0 10px 10px;
-     border-bottom-left-radius: var(--borde-redondo);
-     border-bottom-right-radius: var(--borde-redondo);
-    
-    }
-
 
    #input-original{
    width: 16cm;
@@ -46,10 +31,13 @@
      .rango {
       margin-top: 10px;
       display: grid;
+      width: 15cm;
       grid-template-columns: 1fr 30px;
       text-align: center;
+      background-color: #FEFEE3;
+      background-attachment: fixed;
+      outline-color: #FEFEE3;
       align-items: center;
-      padding-bottom: 1cm;
     
      }
 
@@ -59,7 +47,12 @@
       background: var(--color-terminal);
       margin: 0;
       padding: 0 5px;
+      width: 15cm;
       height: 20px;
+      background-color: #FEFEE3;
+      outline-color: #FEFEE3;
+      align-items: center;
+      display:inline-flex;
  
      }
 
@@ -75,7 +68,8 @@
      }
 
      output{
-     color: #FEFEE3;
+     color: #2C6E49;
+     font-size: 30px;
      }
 
      h1{
