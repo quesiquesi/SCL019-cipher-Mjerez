@@ -13,17 +13,17 @@ body {
 
     }
     input{
-      width: 16cm;
-      padding-bottom: 7cm;
+      margin-top: 10px;
       background-color: #FEFEE3;
       border: solid #FEFEE3;
 
     }
 
-    .range {
+    .rango {
      width: 16cm;
-      padding-bottom:3cm;
-      align-items: center;
+     display: grid;
+     grid-template-columns: 1fr 30px;
+     align-items: center;
     }
 main{
   padding:25px;
