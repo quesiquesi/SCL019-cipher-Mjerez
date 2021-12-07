@@ -7,12 +7,12 @@ function inicio (){
     document.getElementById("cifrar").addEventListener("click", function(){
      let texto = document.getElementById("mensaje").value;
      let desplazamiento = document.getElementById("desplazamiento").value;
-     document.getElementById ("mensaje2".value = cifrar(texto, desplazamiento));
+     document.getElementById ("mensaje2").value = cifrar(texto, desplazamiento);
     }, true);
     document.getElementById("descifrar").addEventListener("click", function(){
         let texto = document.getElementById("mensaje").value;
         let desplazamiento = document.getElementById("desplazamiento").value;
-    document.getElementById ("mensaje2".value = descifrar(texto, desplazamiento));
+    document.getElementById ("mensaje2").value = descifrar(texto, desplazamiento);
        }, true);
 }
 
@@ -29,7 +29,7 @@ function cifrar(texto, desplazamiento){
                 resultado += letras[posicion];
             }
             else 
-            resultado += texto[i];
+             resultado += texto[i];
         }
     }
     return resultado;
