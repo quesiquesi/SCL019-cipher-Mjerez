@@ -1,36 +1,27 @@
 <!DOCTYPE html>
-<html>
-<script>src="cipher.js"</script>
+<html lang="en">
 <head>
- <div>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-  </div>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espacio Seguro</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="cipher.js"></script>
 </head>
-<title> Espacio Seguro</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-
-
 <body>
 
-	
-		<h1> HOLA, AMIGA </h1>
-<br>
-<h2>Escribe tu mensaje aquí</h2>
-<br>
- <main>
-
-<form id="cifrador" autocomplete="off"> </form>
-<input id="input-original" spellcheck="false" placeholder="Aquí" type="text" name="text">
-</form>
-<div id="resultado"></div>
-<div class"rango">
-  <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value" onkeyup=>
-  <output>10</output>
-</div>
-   </main>
-</body>
-</html>
+  <h1> HOLA, AMIGA </h1>
+  <br>
+  <h2>Escribe tu mensaje aquí</h2>
+  <br>
+  <h3>MENSAJE:</h3>
+  <p><input type=" text" id= "mensaje"></p>
+  <br>
+  <h3>DESPLAZAMIENTO:</h3>
+  <p><input type="number" id="desplazamiento" size="4"/></p>
+  <p><button type="button" id="cifrar">CIFRAR</button></p>
+  <button type="button" id="descifrar">DESCIFRAR</button> <br>
+  <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
+  <p><input type="text" id="mensaje2"/></p>
+  </body>
+  </html>

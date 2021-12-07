@@ -1,56 +1,55 @@
-body {
-    background-color: #FEFEE3;
-    text-align: center;
-    font-family: "Outfit", sans-serif;
-    text-shadow: 1px 1px 1px #D68C45;
-    background-image: url(https://static01.nyt.com/images/2018/07/02/science/02-jp-abortion-print/00ABORTION1-jumbo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #FEFEE3;
-    
-
-    }
-    input{
-      margin-top: 10px;
-      background-color: #FEFEE3;
-      border: solid #FEFEE3;
-
-    }
-
-    .rango {
-     width: 16cm;
-     display: grid;
-     grid-template-columns: 1fr 30px;
+     body {
+     background-color: #FEFEE3;
+     text-align: center;
+     font-family: "Outfit", sans-serif;
+     text-shadow: 1px 1px 1px #D68C45;
+     background-image: url(https://static01.nyt.com/images/2018/07/02/science/02-jp-abortion-print/00ABORTION1-jumbo.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-color: #FEFEE3;
      align-items: center;
-    }
-main{
-  padding:25px;
-}
-output{
-color: #FEFEE3;
-}
- h1{
+     }
+
+     h1{
       color: #FEFEE3;
       font-size: 54px;
       background-color: #2C6E49;
       width: 400px;
-      border: solid #2C6E49;
+      border: #2C6E49;
       display: inline-flex;
       padding-left: 1cm;
       padding-right: 1cm;
       justify-content: center;
+      border-radius: 3px;
       }
       
-    h2{
-    color: #FEFEE3;
-    text-shadow: 1px 1px 1px #302d2b
-    }
-    
-    
-  
-    
-    head{
-        padding-top: 100px;
+     h2{
+     color: #FEFEE3;
+     text-shadow: 1px 1px 1px #302d2b
+     }
+
+     h3{
+      background-color: #ffc9b9 ;
+      width: 7cm;
+      align-self: center;
+      color:#FEFEE3;
+      box-shadow: 5px #d6d6d6;
+      justify-self: center;
+      border-radius: 3px;
+      display: inline-flex;
+      text-align: center;
+      padding-left: 2cm;
+      padding-right: 2cm;
+     }
+     button{
+     background-color: #FEFEE3;
+     color: #4c956c;
+     border-radius: 3px;
+     padding-right: 5px;
+     padding-left: 5px;
+     padding-bottom: 5px;
+     padding-top: 5px;
+     border: solid #FEFEE3;
     }
