@@ -84,6 +84,7 @@
       padding-bottom: 5px;
       padding-top: 5px;
       border: solid #FEFEE3;
+      box-shadow: lightgray;
     }
 
     .esquina {
@@ -91,15 +92,16 @@
       align-items: left;
       justify-content: left;
       text-align: left;
-
+      
     }
 
     .esquina2 {
 
-      align-items: right;
+      align-items: top right;
       justify-content: right;
       text-align: right;
-
+      position:absolute; top:10px; right: 10px;
+    
     }
 
     .hola {
@@ -118,3 +120,5 @@
 
       color: #2e6b03
     }
+
+    
