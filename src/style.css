@@ -75,6 +75,8 @@
       }
 
      button{
+
+      width: 300px ; 
       font-family: Greta;
       background-color: #FEFEE3;
       color: #4c956c;
@@ -84,8 +86,18 @@
       padding-bottom: 5px;
       padding-top: 5px;
       border: solid #FEFEE3;
-      box-shadow: lightgray;
-    }
+      box-shadow: inset 0 0 0 0 #e25623;
+      
+     }
+
+     button:hover{ 
+      
+      box-shadow: inset 300px 0 0 0 #e25623;
+      cursor: pointer;
+      color: #FEFEE3;
+     
+  
+     }
 
     .esquina {
 
