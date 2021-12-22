@@ -1,5 +1,7 @@
 window.addEventListener("load", inicio, true);
 
+alert("Bienvenida a Hola, amiga. Tu mensaje está seguro con nosotras :)")
+
 function inicio (){
     document.getElementById("mensaje").addEventListener("keyup", function(){
      this.value = this.value.toUpperCase ();
@@ -34,6 +36,7 @@ function cifrar(texto, desplazamiento){
     }
     return resultado;
 }
+
 function cifrar2 (texto, desplazamiento){
     if (!texto) 
         return "";
