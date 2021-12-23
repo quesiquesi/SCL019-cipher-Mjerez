@@ -1,7 +1,5 @@
 window.addEventListener("load", inicio, true);
 
-alert("Bienvenida a Hola, amiga. Tu mensaje está seguro con nosotras :)")
-
 function inicio (){
     document.getElementById("mensaje").addEventListener("keyup", function(){
      this.value = this.value.toUpperCase ();

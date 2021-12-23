@@ -3,9 +3,13 @@
 <head>
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Espacio Seguro</title>
-  <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
   <script src="cipher.js"></script>
+  <script src="index.js"></script>
+
+  <title>Espacio Seguro</title>
+  
 </head>
  
 <body>
@@ -13,7 +17,8 @@
  <div class= "esquina2"><button type="button"  onclick="document.location='recursos.html'">RECURSOS</button></div>
 
   <div class="flexbox">
- 
+ <div class="contenedor">
+
   <h1> HOLA, AMIGA </h1>
   <br>
   <br>
@@ -29,5 +34,15 @@
   <button type="button" id="descifrar">Descifrar</button> <br>
   <h3>MENSAJE CIFRADO/DESCIFRADO:</h3>
   <p><input type="text" id="mensaje2"></p> </div>
+
+  <div class="overlay active" id="overlay">
+			<div class="popup" id="popup">
+				<div class="titulo-popup"><a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				Hola, amiga :)</div>
+				<h4>Esta es una aplicación de cifrado y descifrado para mensajería entre mujeres y redes de apoyo para abortar. Si llegaste aquí, no te preocupes, tu mensaje está seguro con nosotras. Para cifrar, escribe tu mensaje en la casilla y selecciona el desplazamiento, luego presiona el botón "cifrar" y listo. Para descifrar, copia y pega el mensaje cifrado de la segunda casilla en la primera casilla y presiona el botón "descifrar".</h4>
+			</div>
+		</div>
+	</div>
+
   </body>
   </html>
