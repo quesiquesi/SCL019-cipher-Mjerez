@@ -18,7 +18,7 @@ function inicio (){
 
 function cifrar(texto, desplazamiento){
     let resultado = "";
-    let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let letras = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
 
     desplazamiento = (desplazamiento % 27 + 27) %27;
 
