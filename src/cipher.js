@@ -20,12 +20,12 @@ function cifrar(texto, desplazamiento){
     let resultado = "";
     let letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    desplazamiento = (desplazamiento % 26 + 26) %26;
+    desplazamiento = (desplazamiento % 27 + 27) %27;
 
     if (texto){
         for (let i = 0; i<texto.length; i++){
             if (letras.indexOf(texto[i]) !=-1){
-                let posicion = ((letras.indexOf(texto[i])+desplazamiento)%26);
+                let posicion = ((letras.indexOf(texto[i])+desplazamiento)%27);
                 resultado += letras[posicion];
             }
             else 
@@ -35,17 +35,10 @@ function cifrar(texto, desplazamiento){
     return resultado;
 }
 
-function cifrar2 (texto, desplazamiento){
-    if (!texto) 
-        return "";
-const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-desplazamiento = (desplazamiento % 26 + 26) %26;
-return texto.replace (/[A-Z]/ig, c=> letras[(letras.indexOf(c)+desplazamiento)%26]);
-}
 function descifrar (texto, desplazamiento){
     if (!texto) 
         return "";
-const letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-desplazamiento = (desplazamiento % 26 - 26) %26;
-return texto.replace (/[A-Z]/ig, c=> letras[(letras.indexOf(c)-desplazamiento)%26]);
+const letras = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ";
+desplazamiento = (desplazamiento % 27 - 27) %27;
+return texto.replace (/[A-Z]/ig, c=> letras[(letras.indexOf(c)-desplazamiento)%27]);
 }
